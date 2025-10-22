@@ -1,0 +1,41 @@
+
+
+  
+.gray-box {
+  background-color: #a7d3ec; /* สีเทา */
+  color: #000000;
+ padding: 30px;
+}
+
+ h2, h3 {
+  font-family: 'Noto Sans Thai', sans-serif;
+  font-weight: 400;
+}
+
+p {
+  font-family: 'Pridi', serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: 'Sriracha', cursive;
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.carousel-container {
+  max-width: 800px; /* ปรับขนาดตามต้องการ */
+  margin: 0 auto;
+}
+
+.carousel-img {
+  max-height: 500px; /* ป้องกันไม่ให้รูปสูงเกินไป */
+  object-fit: contain; /* ให้รูปไม่บิดเบี้ยว */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  z-index: 10;
+  opacity: 1;
+}
