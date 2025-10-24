@@ -7,6 +7,7 @@
  padding: 30px;
 }
 
+
  h2, h3 {
   font-family: 'Noto Sans Thai', sans-serif;
   font-weight: 400;
@@ -23,5 +24,72 @@ h1 {
   font-weight: 400;
   font-size: 26px;
 }
+
+h1 {
+  font-size: calc(1rem + 1vw);
+}
+
+
+.nav-link:hover {
+  color: darkblue;
+  text-decoration: underline;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #b62c3b;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease;
+  z-index: 999;
+}
+
+.back-to-top:hover {
+  background-color: #8e1f2c;
+}
+
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* จัดกลางแนวตั้ง */
+  align-items: center;     /* จัดกลางแนวนอน */
+  height: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.gray-box {
+  background-color: #a7d3ec;
+}
+
+@media (min-width: 768px) {
+  .gray-box .row {
+    min-height: 400px;
+  }
+}
+
+
+h3 {
+  background-color: #a7d3ec;
+  color: rgb(24, 21, 21);
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.creamy-paragraph {
+  background-color: #e2e2df; /* สีครีมอ่อน */
+  padding: 15px;
+  border-radius: 8px;
+  line-height: 1.8;
+}
+
+
 
 
